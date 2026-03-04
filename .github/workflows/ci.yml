@@ -16,7 +16,7 @@ jobs:
           Python-version: "3.12"
 
       - name: Install uv
-        run: uv pip install uv
+        run: pip install uv
 
       - name: Install dependencies
         run: uv sync
