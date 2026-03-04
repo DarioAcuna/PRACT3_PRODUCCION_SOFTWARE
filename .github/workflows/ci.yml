@@ -12,9 +12,9 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v4
-        whit:
+        with:
           Python-version: "3.12"
-          
+
       - name: Install uv
         run: uv pip install uv
 
